@@ -15,6 +15,5 @@ class ParseAbstract
 
     public function parse()
     {
-
     }
 }

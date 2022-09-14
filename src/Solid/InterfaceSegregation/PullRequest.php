@@ -6,5 +6,4 @@ namespace Solid\InterfaceSegregation;
 
 class PullRequest
 {
-
 }

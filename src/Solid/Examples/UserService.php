@@ -11,5 +11,6 @@ class UserService
     public function __construct(
         protected DbAdapter $dbAdapter,
         protected EmailClient $emailClient
-    ) {}
+    ) {
+    }
 }

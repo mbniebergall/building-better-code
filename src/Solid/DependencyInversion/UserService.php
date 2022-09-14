@@ -20,7 +20,3 @@ class UserService
         return $this->hotmailEmailClient->sendEmail($emailMessage);
     }
 }
-
-
-$userService = new UserService();
-$userService->setHotmailEmailClient((new HotmailEmailClient()));

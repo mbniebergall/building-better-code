@@ -6,5 +6,4 @@ namespace Solid\OpenClosed;
 
 class Mouse extends Food
 {
-
 }

@@ -14,6 +14,3 @@ class RubberDuck extends Duck
         return false;
     }
 }
-
-
-$rubberDuck = new RubberDuck();

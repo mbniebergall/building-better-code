@@ -6,5 +6,4 @@ namespace Solid\Examples;
 
 class DbAdapter
 {
-
 }
