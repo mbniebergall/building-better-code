@@ -6,15 +6,14 @@ namespace Solid\InterfaceSegregation;
 
 class Developer implements EmployeeInterface
 {
-
     public function checkEmail(): bool
     {
-        // TODO: Implement checkEmail() method.
+        return true;
     }
 
     public function createPullRequest(): PullRequest
     {
-        // TODO: Implement createPullRequest() method.
+        return new PullRequest();
     }
 
     public function attendMeeting(Meeting $meeting): void

@@ -21,8 +21,3 @@ class ContactService
         return $this->emailClient->sendEmail($emailMessage);
     }
 }
-
-
-$contactService = new ContactService();
-$contactService->setEmailClient(new HotmailEmailClient());
-$contactService->email(new Contact());
